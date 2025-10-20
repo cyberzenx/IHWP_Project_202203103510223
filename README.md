@@ -48,7 +48,7 @@ This app is for educational purposes. For any health concerns, consult a qualifi
 ---
 
 
-### ✅ Next Steps
+ Next Steps
 1. Copy all files into a folder `ayurveda-dosha-analyzer`.
 2. Run `npm install`.
 3. Run `npm run dev` to start the app.
