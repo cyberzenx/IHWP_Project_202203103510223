@@ -21,7 +21,7 @@ padding:24px;
 
 
 header {
-position: relative; /* header scrolls with page */
+position: relative;
 top: auto;
 left: auto;
 width: 100%;
@@ -47,7 +47,7 @@ z-index: auto;
 .container {
 max-width: 1200px;
 margin: 0 auto;
-padding-top: 24px; /* less top padding since header is scrollable */
+padding-top: 24px;
 }
 
 
@@ -74,3 +74,8 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
 .two-col { display:flex; gap:16px; flex-wrap:wrap; }
 .col { flex:1; min-width:300px; }
 footer p { margin:4px; font-weight:500; }
+
+
+
+button, .button { cursor: pointer; }
+button:focus, .button:focus { outline: none; }
